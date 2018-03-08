@@ -4,6 +4,7 @@ MAINTAINER  Hector Ros
 ENV DEBIAN_FRONTEND noninteractive
 ENV VCL_FILE default
 ENV STORAGE "malloc,100M"
+ENV VARNISH_PORT 80
 
 # Update the package repository
 RUN apt-get -qq update
